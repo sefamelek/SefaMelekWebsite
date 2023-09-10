@@ -9,7 +9,9 @@
 h2 {
   text-align: center;
 }
-
+img{
+  width: 100%;
+}
 /** ------- NAV ----------*/
 nav {
   background-color: #76bfe1;
@@ -46,6 +48,8 @@ nav a:hover {
   flex-wrap: wrap;
   align-items: center;
   gap: 20px;
+  text-align: center;
+
 }
 
 .about-img-div img {
@@ -57,7 +61,7 @@ nav a:hover {
   flex: 3;
   text-align: justify;
 }
-.about-img-div {
+.about-img-div img{
   flex: 1;
 }
 
@@ -80,7 +84,6 @@ nav a:hover {
   align-items: flex-start; /* İçerikleri üstten hizalar */
 }
 #services p {
-  width: 300px;
   padding-top: 10px;
   flex: 1;
   display: flex;
@@ -89,7 +92,6 @@ nav a:hover {
 }
 
 #services img {
-  width: 300px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   display: flex;

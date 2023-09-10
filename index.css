@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.body {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+/** ------- NAV ----------*/
+nav {
+  background-color: #76bfe1;
+  text-align: center;
+}
+
+nav a {
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  background-color: rgb(4, 26, 72);
+  color: rgb(255, 255, 255);
+  opacity: 1;
+}
+
+/** -------- ABOUT ----------*/
+#about {
+  background-color: lightgray;
+  padding-top: 20px;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+.about-div {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-img-div img {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  max-width: 400px;
+}
+.about-text-div {
+  flex: 3;
+  text-align: justify;
+}
+.about-img-div {
+  flex: 1;
+}
+
+/** -------- SERVICES ----------*/
+#services {
+  background-color: azure;
+  padding-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services-img-div {
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start; /* İçerikleri üstten hizalar */
+}
+#services p {
+  width: 300px;
+  padding-top: 10px;
+  flex: 1;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#services img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  flex: 1;
+}
+
+/** -------- HERO ----------*/
+.hero {
+  text-align: center;
+  background-image: url(assest/background.svg);
+  height: calc(100vh - 55px);
+  background-size: cover;
+  background-position: top left;
+  position: relative;
+}
+.hero-title {
+  font-size: 25px;
+  color: aliceblue;
+  font-weight: 600;
+  text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.9);
+}
+.hero-par {
+  font-size: 15px;
+  font-weight: 300;
+  text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.9);
+}
+
+.hero-text {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text:hover {
+  opacity: 1;
+}
+
+/** ------- WHATSAPP ICON --------*/
+.fixed a {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  font-size: 60px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 90%;
+  color: chartreuse;
+}
+
+.fixed :hover {
+  color: rgb(255, 255, 255);
+  font-size: 65px;
+  height: 55px;
+  cursor: pointer;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+/** -------- SERVICES ----------*/
+footer {
+  background-color: rgb(4, 26, 72);
+  padding: 50px;
+  text-align: center;
+}
+footer a {
+  color: white;
+  margin-right: 30px;
+  font-size: 50px;
+  text-decoration: none;
+}
+footer a:hover {
+  color: aqua;
+}
